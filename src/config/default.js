@@ -1,4 +1,4 @@
 export default {
-    db: 'mongodb://localhost:27017/analytics',
+    db: Bun.env.MONGO_URL,
     port: 4000,
 };
